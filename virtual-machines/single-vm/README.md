@@ -151,7 +151,7 @@ The parameters below are used to download three different bash scripts to a Linu
 	}
 ```
 
-The extension building block for a Windows VM is similar tot he Linux one, except that it uses two blocks - one to install IIS, and another one to format the data disks.
+The extension building block for a Windows VM is similar to the Linux one, except that it uses two blocks - one to install IIS, and another one to format the data disks.
 
 ```json
 	{
@@ -220,9 +220,9 @@ You can deploy this reference architecture by using the [Azure Building Blocks][
 
 	For instance, the command below can be used to deploy a Windows VM to a resource group named `ra-single-windows-vm-rg` in the `West US` Azure region:
 
-	```bash
+```bash
 		azbb -s xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -g ra-single-windows-vm-rg -l westus -p ./single-vm.json --deploy
-	```
+```
 
 <!-- links -->
 [0]: ./diagram.png
